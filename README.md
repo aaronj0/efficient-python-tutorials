@@ -3,7 +3,10 @@
 
 All of the code in the tutorial and excercises can be run by pip installing the relevant packages
 
-Setup(Windows users: WSL2/Ubuntu) recipe:
+
+### Setup WSL2/Ubuntu (Only Windows users)
+
+Recipe:
 
 Install Ubuntu on WSL from the Microsoft Store: https://apps.microsoft.com/detail/9pdxgncfsczv
 
@@ -18,18 +21,34 @@ Launch Ubuntu and run:
 	pip install –upgrade pip
 ```
 
-Then (WSL/Linux/MacOS)
+### Install Eigen:
+
+WSL/Linux Users
+
+`sudo apt install libeigen3-dev`
+
+MacOS Users:
+
+`brew install eigen`
+
+### Install pip packages
+
+Then(WSL/Linux/MacOS) proceed to pip install the packages in a virtual environment:
 
 ```
 pip install \
-   cppyy \
-   numpy \
-   numba \
-   cython \
-   jupyter \
-   setuptools \
-   memray \
-   pandas \
-   line-profiler \
-   pybind11
+    cppyy \
+    numpy \
+    numba \
+    cython \
+    jupyter \
+    setuptools \
+    memray \
+    pandas \
+    line-profiler \
+    pybind11 \
+    awkward \
+    matplotlib
 ```
+
+Part of this course is inspired by and derived from work by [ENCCS](https://enccs.se) HPDA-Python course licensed under the Creative Commons Attribution license [(CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/)
