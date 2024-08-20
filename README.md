@@ -48,7 +48,8 @@ pip install \
     line-profiler \
     pybind11 \
     awkward \
-    matplotlib
+    matplotlib \
+    jax
 ```
 
 Part of this course is inspired by and derived from work by [ENCCS](https://enccs.se) HPDA-Python course licensed under the Creative Commons Attribution license [(CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/)
