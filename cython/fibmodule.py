@@ -15,6 +15,3 @@ if cython.compiled:
     print("Cython compiled this module")
 else:
     print("Cython didn't compile this module")
-
-
-# note in the end with a demo that typing is a challenge and may restrict compatibility 

@@ -10,4 +10,4 @@ def bubble_sort(a):
 	return a
 
 
-bubble_sort([random.randint(0, 100) for _ in range(1000000)])
+bubble_sort([random.randint(0, 100) for _ in range(100000)])
